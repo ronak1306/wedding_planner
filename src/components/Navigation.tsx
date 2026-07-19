@@ -4,6 +4,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/guests", label: "Guests" },
   { href: "/budget", label: "Budget" },
+  { href: "/vendors", label: "Vendors" },
 ];
 
 export default function Navigation() {

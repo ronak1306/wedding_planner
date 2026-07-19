@@ -1,4 +1,5 @@
 import BudgetSummary from "@/components/BudgetSummary";
+import VendorSummary from "@/components/VendorSummary";
 
 const WEDDING_DATE = new Date(2027, 2, 15);
 
@@ -64,6 +65,7 @@ export default function Home() {
         </section>
 
         <BudgetSummary />
+        <VendorSummary />
       </main>
     </div>
   );
